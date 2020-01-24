@@ -5,22 +5,53 @@ body {
 }
 
 h1 {
-  margin-top: 0;
-  font-family: 'Homemade Apple', cursive;
-  font-size: 50px;
+  margin:50px auto 0 auto;
+  font-family: 'Rock Salt', cursive;
+  font-size: 4.5rem;
   color: #851d41;
-
 }
+h2 {
+  color: #E9645D;
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 2rem;
 
+  font-weight: normal;
+}
+h3 {
+  color: #E9645D;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #1F293A;
+  font-weight: normal;
+}
+p {
+  line-height: 2;
+}
+.img-circle{
+  border-radius: 50%;
+}
 .top-container {
   background-color: #f5c3bc;
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
 }
+.middle-container {
+  margin: 50px auto;
+  position: relative;
+  padding-top: 50px;
+}
+.bottom-container {
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+  background-color: #F27C6E;
+
+}
+
 .top-cloud{
   position: absolute;
   right: 50px;
-  top: 50px;
+  top: 1px;
 
 }
 .bottom-cloud{
