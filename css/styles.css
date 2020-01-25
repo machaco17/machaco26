@@ -1,68 +1,112 @@
-html{
+html {
   min-height: 100%;
   overflow-y: scroll;
 }
-body {
 
+body {
   margin: 0;
   padding: 0;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-
 }
 
 h1 {
-  margin:50px auto 0 auto;
+  margin: 0;
   font-family: 'Rock Salt', cursive;
   font-size: 4.5rem;
-  color: #851d41;
+  color: #97304C;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
 h2 {
-  color: #851d41;
-  font-family: 'Capriola', sans-serif;
-  font-size: 3rem;
-  font-weight: normal;
-}
-h3 {
-  color: #E9645D;
-  font-family: 'Spinnaker', sans-serif;
+  color: #F66955;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
+
+}
+
+h3 {
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
   font-weight: normal;
 }
+
 p {
   line-height: 2;
 }
-.img-circle{
-  border-radius: 50%;
+
+hr {
+  border: dotted #E9645D 6px;
+  border-bottom: none;
+  width: 4%;
 }
+
+.img-circle {
+  display: inline;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
 .top-container {
+  margin: 0;
   background-color: #f5c3bc;
   position: relative;
-  padding-top: 50px;
-}
-.middle-container {
-  margin: 50px 0;
-  position: relative;
-  padding-top: 50px;
-}
-.bottom-container {
-  margin-bottom: : 0;
-  position: relative;
-  padding-top: 100px;
-  background-color: #F27C6E;
+  padding: 0;
 
 }
-.img-fuji{
+
+.middle-container {
+  margin: 20px 0;
+  position: relative;
+  padding-bottom: : 50px;
+
+}
+
+.bottom-container {
+  border-bottom: none
+  position: relative;
+  padding: 10px 0;
+  background-color: #F27C6E;
+  color: #97304C;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.img-fuji {
   margin-bottom: : 0;
 }
-.top-cloud{
+
+.top-cloud {
   position: absolute;
   right: 50px;
-  top: 1px;
-
+  top: 50px;
 }
-.bottom-cloud{
+
+.bottom-cloud {
   position: absolute;
   left: 50px
-
+}
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background-color:#fc8d83;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.btn:hover {
+	background-color:#e4685d;
+}
+.btn:active {
+	position:relative;
+	top:1px;
 }
